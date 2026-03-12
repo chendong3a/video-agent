@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 环境变量
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 存储文件
+storage/
+models/
+*.mp4
+*.mp3
+*.wav
+*.srt
+*.ass
+
+# 日志
+*.log
+logs/
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+
+# 数据库
+*.db
+*.sqlite
+
+# Redis
+dump.rdb
+
+# Celery
+celerybeat-schedule
+
+# Node
+node_modules/
+dist/
+.cache/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 安装脚本（临时文件）
+install_redis_ffmpeg.ps1
+install_with_scoop.ps1
