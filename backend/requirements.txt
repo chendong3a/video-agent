@@ -30,10 +30,10 @@ torch==2.1.2
 torchaudio==2.1.2
 torchvision==0.16.2
 transformers==4.37.0
-faster-whisper==0.10.0
+faster-whisper>=1.0.0
 
 # 字幕处理
-stable-ts==2.15.0
+# stable-ts==2.15.0  # 暂时跳过，openai-whisper构建问题，后期再解决
 
 # 工具
 python-dotenv==1.0.0
